@@ -16,6 +16,7 @@ Cross-Validation: Applying GridSearchCV to find the best hyperparameters.
 Results:
 The final model achieved an accuracy score of 0.82 on the training data and 0.77 on the test set.
 This score placed the project at 11173rd position in the Kaggle Titanic competition.
+
 Data Pipeline
 
 The data pipeline includes the following steps:
@@ -23,7 +24,8 @@ The data pipeline includes the following steps:
 Imputation: Missing age values are imputed using the mean age.
 Encoding: Categorical variables such as 'Sex' are one-hot encoded.
 Dropping Irrelevant Features: Features like 'Embarked', 'Name', 'Ticket', and 'Cabin' are dropped as they do not contribute significantly to the model.
-Machine Learning Model
+
+# Machine Learning Model
 
 A RandomForestClassifier was chosen for the prediction task. The model's hyperparameters were fine-tuned using GridSearchCV, which optimizes for the best parameters through cross-validation. The parameters considered include:
 
