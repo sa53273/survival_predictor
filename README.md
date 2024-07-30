@@ -1,12 +1,12 @@
-# Titanic Survival Predictor
+## Titanic Survival Predictor
 
 This repository contains the code and resources for the "Titanic Survival Predictor" project, developed for the Kaggle Titanic competition. The goal of the project is to predict the survival of passengers aboard the Titanic using various machine learning techniques.
 
-Project Overview
+# Project Overview
 
 The Titanic Survival Predictor project involves several key steps:
 
-Data Pipeline:
+# Data Pipeline:
 Data Cleaning: Handling missing values and irrelevant features.
 Feature Engineering: Creating new features and transforming existing ones.
 Encoding: One-hot encoding categorical variables.
@@ -30,7 +30,8 @@ A RandomForestClassifier was chosen for the prediction task. The model's hyperpa
 Number of estimators: 10, 100, 200, 500
 Maximum depth: None, 5, 10
 Minimum samples split: 2, 3, 4
-Results
+
+# Results
 
 Training Accuracy: 0.82
 Test Accuracy: 0.77
